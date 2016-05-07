@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="@integer/swirl_duration"
+        android:fillAfter="true"
+        android:repeatCount="-1">
+        <propertyValuesHolder android:propertyName="trimPathStart">
+            <keyframe
+                android:fraction="0"
+                android:value="0"/>
+            <keyframe
+                android:fraction="0.3"
+                android:value="1"/>
+            <keyframe
+                android:fraction="0.5"
+                android:value="1"/>
+            <keyframe
+                android:fraction="0.5"
+                android:value="0"/>
+            <keyframe
+                android:fraction="1"
+                android:value="0"/>
+        </propertyValuesHolder>
+        <propertyValuesHolder android:propertyName="trimPathEnd">
+            <keyframe
+                android:fraction="0"
+                android:value="1"/>
+            <keyframe
+                android:fraction="0.5"
+                android:value="1"/>
+            <keyframe
+                android:fraction="0.5"
+                android:value="0"/>
+            <keyframe
+                android:fraction="0.8"
+                android:value="1"/>
+            <keyframe
+                android:fraction="1"
+                android:value="1"/>
+        </propertyValuesHolder>
+    </objectAnimator>
+</set>

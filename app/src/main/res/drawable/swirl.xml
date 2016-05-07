@@ -1,0 +1,24 @@
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/swirl_size"
+    android:height="@dimen/swirl_size"
+    android:viewportHeight="@integer/swirl_viewport"
+    android:viewportWidth="@integer/swirl_viewport">
+    <group
+        android:pivotX="@fraction/circle_x"
+        android:pivotY="@fraction/circle_y"
+        android:rotation="90">
+        <path
+            android:name="@string/circle_name"
+            android:pathData="@string/circle_path"
+            android:strokeColor="@color/red"
+            android:strokeLineCap="round"
+            android:strokeWidth="@fraction/swirl_stroke"/>
+    </group>
+    <path
+        android:name="@string/swirl_name"
+        android:pathData="@string/swirl_path"
+        android:strokeColor="@color/red"
+        android:strokeLineCap="round"
+        android:strokeWidth="@fraction/swirl_stroke"/>
+</vector>

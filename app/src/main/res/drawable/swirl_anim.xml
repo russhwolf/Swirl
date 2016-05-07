@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/swirl">
+    <target
+        android:name="@string/swirl_name"
+        android:animation="@anim/swirl_anim"/>
+    <target
+        android:name="@string/circle_name"
+        android:animation="@anim/swirl_anim"/>
+</animated-vector>

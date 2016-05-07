@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="swirl_name" translatable="false">swirl</string>
+    <string name="swirl_path" translatable="false">
+        M67.3,243.1c24.6,-24.6 34.8,0 77,0c117.4,0 127.5,-111.9 58.7,-111.9c-67.9,0 -58.7,111.9 58.7,111.9c37.8,0 56.5,-20.5 77,0
+    </string>
+    <string name="circle_name" translatable="false">circle</string>
+    <string name="circle_path" translatable="false">
+        M201.7,189.5m-108.7,0a108.7,108.7 0,1 1,217.4 0a108.7,108.7 0,1 1,-217.4 0
+    </string>
+    <item name="circle_x" type="fraction">201.7</item>
+    <item name="circle_y" type="fraction">189.5</item>
+
+    <integer name="swirl_duration">2000</integer>
+
+    <dimen name="swirl_size">24dp</dimen>
+
+    <integer name="swirl_viewport">400</integer>
+    <item name="swirl_stroke" type="fraction">11.0067</item>
+</resources>
